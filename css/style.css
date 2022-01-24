@@ -7,6 +7,16 @@
 /* f5f5f5 ->  #292F36 */
 /* f5f5f5 */
 
+ul,
+ol {
+  padding-left: 30px;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: none;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ Table ]*/
@@ -246,7 +256,7 @@ p {
 
 .pageButton a:hover {
   background: var(--main-color);
-  color: #000;
+  color     : #000;
 }
 
 .pageButton a span {
@@ -346,7 +356,7 @@ p {
 .infoIntro {
   font-size        : large;
   text-align       : center;
-  text-align: justify;
+  text-align       : justify;
   /* padding-bottom: 40px; */
 }
 
@@ -376,13 +386,6 @@ p {
   color     : #353b43;
   background: var(--main-color);
 }
-
-/* ol,
-ul {
-  margin    : 0;
-  padding   : 0;
-  list-style: none;
-} */
 
 figure {
   margin: 0;
@@ -505,7 +508,7 @@ a:hover {
   border-right  : 3px solid #ddd;
   display       : inline-block;
   padding       : 5px 25px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .btn.active:focus,
@@ -536,13 +539,6 @@ a:hover {
 .inline-block {
   display: inline-block;
 }
-
-/* ol,
-ul {
-  margin    : 0;
-  padding   : 0;
-  list-style: none;
-} */
 
 figure {
   margin: 0;
@@ -740,7 +736,7 @@ a:hover {
 }
 
 .title h2 {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight   : 700;
   font-size     : 38px;
   color         : #353b43;
@@ -755,7 +751,7 @@ a:hover {
 }
 
 .titleLite h2 {
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight   : 700;
   font-size     : 20px;
   color         : #353b43;
@@ -988,7 +984,7 @@ a:hover {
 .hero-area .block h1 {
   font-size     : 90px;
   color         : #fff;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-weight   : 700;
   margin-bottom : 20px;
 }
@@ -1312,7 +1308,7 @@ a:hover {
 .price-title h3 {
   color         : var(--main-color);
   margin        : 0 0 10px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .price-title p {
@@ -1739,7 +1735,7 @@ a:hover {
 }
 
 .post-block {
-  background-color: #a6d0ef;
+  background-color: var(--main-color);
   margin-bottom   : 20px;
   box-shadow      : 5px 5px 2px grey;
 }
@@ -1755,7 +1751,9 @@ a:hover {
 
 .post-block .content p {
   /* justify-content:start; */
-  display: flex;
+  display   : flex;
+  color     : #000;
+  text-align: justify;
 }
 
 /* .post-block .content .btn-transparent {
@@ -1767,22 +1765,26 @@ a:hover {
 } */
 
 .post-block .content a.btn {
-  color       : #000;
+  color       : white;
   border-color: #353b43;
 
 }
 
-.post-block .content a.btn:hover {
+/* .post-block .content a.btn:hover {
   background-color: var(--main-color);
   color           : white;
 
-}
+} */
 
 .post-block .content h3 {
   margin        : 0 0 6px;
   font-size     : 20px;
   line-height   : 1.5;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
+}
+
+.post-block .content h3 a {
+  color: white;
 }
 
 .note .media-wrapper {
@@ -1792,7 +1794,7 @@ a:hover {
 .note .excerpt h3 {
   font-size     : 20px;
   line-height   : 1.5;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .all-post {
@@ -2139,7 +2141,7 @@ a:hover {
 }
 
 .blog-title h1 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #blog-page {
@@ -2344,7 +2346,7 @@ aside.widget {
   color           : #353b43;
 }
 
-.post-pagination {
+/* .post-pagination {
   display      : inline-block;
   margin-bottom: 20px;
 }
@@ -2378,7 +2380,7 @@ aside.widget {
 .post-pagination ul li.active a {
   background-color: #6CB670;
   color           : #353b43;
-}
+} */
 
 /*=================================================================
 	Single Blog Page
